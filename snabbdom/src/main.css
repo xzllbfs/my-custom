@@ -1,0 +1,67 @@
+body {
+  background-color: #181a1b;
+  color: #fffede;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+.close {
+  cursor: pointer;
+}
+.btn {
+  color: #88969f;
+  cursor: pointer;
+}
+.container {
+  padding: 0 20px;
+  width: 840px;
+}
+
+.tab {
+  display: flex;
+}
+
+.header {
+  overflow: hidden;
+}
+
+.tab li {
+  padding: 0 10px
+}
+
+.content {
+  padding: 20px 0;
+}
+.content li {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content li span {
+  display: flex;
+  align-items: center;
+}
+.content li .rank {
+  width: 40px;
+}
+.content li .name {
+  width: 190px;
+}
+.content li .description {
+  width: 580px;
+}
+
+.content li .close {
+  color: #ba967d;
+  cursor: pointer;
+}

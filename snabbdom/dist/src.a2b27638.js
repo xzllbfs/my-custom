@@ -959,7 +959,7 @@ exports.eventListenersModule = {
 };
 exports.default = exports.eventListenersModule;
 
-},{}],"src/list.js":[function(require,module,exports) {
+},{}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _snabbdom = require("snabbdom");
@@ -1264,5 +1264,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/_parcel-bundler@1.12.4@parcel-bundler/src/builtins/hmr-runtime.js","src/list.js"], null)
-//# sourceMappingURL=/list.389e6a79.js.map
+},{}]},{},["node_modules/_parcel-bundler@1.12.4@parcel-bundler/src/builtins/hmr-runtime.js","src/index.js"], null)
+//# sourceMappingURL=/src.a2b27638.js.map
